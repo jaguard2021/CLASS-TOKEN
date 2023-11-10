@@ -12,7 +12,7 @@ Accessibility: Accessible to anyone with an Ethereum wallet, enabling easy trans
 CLASS Ecosystem: CLASS Token is an integral part of the CLASS project ecosystem, supporting various functions such as access to special services or participation rights in community decisions
 
 
-## Features
+## FEATURES
 
 1. **Transfer:** Users can transfer CLS tokens to other addresses.
 2. **Approval:** Users can approve other addresses to spend CLS tokens on their behalf.
@@ -22,3 +22,8 @@ CLASS Ecosystem: CLASS Token is an integral part of the CLASS project ecosystem,
 6. **Pause/Unpause:** The contract owner can pause and unpause certain operations.
 7. **Ownership Transfer:** The ownership of the contract can be transferred to a new address.
 
+# Explanation of how to use File Class-Token-Web3.js
+
+1. Make sure you have the Web3 library installed (you can install it using npm: npm install web3
+2. Make sure to replace 'YOUR_CONTRACT_ADDRESS' with the actual address of your deployed contract and replace the contract ABI with your actual ABI. Additionally, you may need to replace the Ethereum node URL ('http://localhost:8545') with the URL of your Ethereum node.
+3. Make sure you have deployed the Class Token on the Blockchain and it has been verified so that the contract ABI can be obtained
